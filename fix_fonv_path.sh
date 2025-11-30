@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Proton prefix registry file
-SYSTEM_REG="/home/deck/.local/share/Steam/steamapps/compatdata/22380/pfx/system.reg"
+SYSTEM_REG="$HOME/.local/share/Steam/steamapps/compatdata/22380/pfx/system.reg"
 
 # Check that system.reg exists
 if [[ ! -f "$SYSTEM_REG" ]]; then
